@@ -12,24 +12,31 @@
   margin: auto;
   width: 400px;
   height: 450px;
-
 }
 
 .Username-input,
 .Password-input {
+  font-weight: bold;
   width: 250px;
-  height: 30px;
+  height: 27px;
   border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 35px;
+  position: left;
 }
 
 .Username-input {
-  font-weight: bold;
-  background-image: url('https://material.io/icons/static/images/icons-180x180.png');
+  background-image: url("../../../img/user-icon.jpg");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 2px;
 }
 
 .Password-input {
-  font-weight: bold;
   margin: 10px;
+  background-image: url("../../../img/lock-icon.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
 }
 
 .Login-title {
@@ -47,10 +54,9 @@
   margin-right: 175px;
 }
 
-.Login-button{
+.Login-button {
   width: 250px;
   height: 35px;
   margin-top: 10px;
   border-radius: 20px;
-
 }
