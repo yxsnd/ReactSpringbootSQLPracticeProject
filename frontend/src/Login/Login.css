@@ -1,0 +1,56 @@
+.Login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-image: url("../../../img/login-background.jpg");
+}
+
+.Login-container {
+  margin: auto;
+  width: 400px;
+  height: 450px;
+
+}
+
+.Username-input,
+.Password-input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.Username-input {
+  font-weight: bold;
+  background-image: url('https://material.io/icons/static/images/icons-180x180.png');
+}
+
+.Password-input {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.Login-title {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: -100px;
+}
+
+.Remember-me-button {
+  margin-right: 140px;
+}
+
+.Forgot-me-URL {
+  margin-right: 175px;
+}
+
+.Login-button{
+  width: 250px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 20px;
+
+}
